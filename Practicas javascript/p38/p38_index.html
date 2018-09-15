@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OSI Y TCP-IP</title>
+    <link rel="stylesheet" href="css/p38.css">
+</head>
+
+<body>
+    <div id="ocultarTodo"></div>
+
+        <header>
+            <h1>Niveles OSI y TCP/IP</h1>
+            <div id="subcabecera">
+                <div id="h2-osi">
+                    <h2>Modelo OSI</h2>
+                </div>
+                <div id="h2-tcpip">
+                    <h2>Modelo TCP/IP</h2>
+                </div>
+            </div>
+        </header>
+        <aside>
+            <input type="checkbox" name="OSI" value="tablaOsi">
+            <label for="OSI">OSI</label>
+            <br>
+            <input type="checkbox" name="TCP-IP" value="tablaTcp">
+            <label for="TCP-IP">TCP/IP</label>
+            <br>
+            <button id="ocultAmbas">
+                Ocultar ambas
+            </button>
+            <br>
+            <button id="ocultAll">
+                Ocultar todo
+            </button>
+        </aside>
+        <main>
+            <div id="tablaOsi">
+                <div class="capa app">Aplicación</div>
+                <div class="capa app">Presentación</div>
+                <div class="capa app">Sesión</div>
+                <div class="capa trans">Transporte</div>
+                <div class="capa eth">Red</div>
+                <div class="capa rosita">Enlace</div>
+                <div class="capa rosita">Física</div>
+            </div>
+            <div id="tablaTcp">
+                <div class="capa app">Aplicación</div>
+                <div class="capa trans">Transporte</div>
+                <div class="capa eth">Internet</div>
+                <div class="capa rosita">Interfaz de red</div>
+            </div>
+        </main>
+        <script src="js/jquery.js"></script>
+        <script src="js/p38.js"></script>
+</body>
+
+</html>

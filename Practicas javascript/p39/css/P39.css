@@ -1,0 +1,64 @@
+* {
+	font-family: 'Audiowide', sans-serif;
+}
+
+body{
+	background-color: black;
+
+}
+#calculadora{
+	background-color: #3B3A38FF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 520px;
+	height: 270px;
+	margin-top: -135px;
+	margin-left: -260px;
+
+}
+
+input{
+	width: 90%;
+	font-size: 1.8em;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	margin: 5%;
+	margin-top: 0;
+	background-color: #EDEEF9;
+}
+
+#resultado {
+	background-color: #74757EFF;
+	border: 1px solid white;
+}
+
+#clear {
+	background-color: #CE7E14FF !important;
+}
+
+#num1 {
+	margin-top: 15px;
+}
+
+.botones {
+	width: 100%;
+	margin-bottom: 0;
+	margin-left: 25px;
+}
+
+
+.operador{
+	display: inline-block;
+	background-color: #87898DFF;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8em;
+	width: 80px;
+	margin: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: none;
+	border-radius: 5px;
+}

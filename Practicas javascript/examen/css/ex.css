@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+/*font-family: 'Roboto Slab', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*font-family: 'Raleway', sans-serif;*/
+
+#fondo{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-image: url('../img/test.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+aside{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	background-color: #833811;
+	font-family: 'Roboto Slab', serif;
+	height:100%;
+	text-align: center;
+	color: white;
+	z-index: 10;
+}
+aside h3{
+	background-color: #3d1a08;
+	color: white;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	z-index: 20;
+}
+
+main{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .75);
+	z-index: 0;
+	overflow: auto;
+}
+
+#cuestionario{
+	margin: auto;
+	background-color: white;
+    max-width:800px;
+}
+
+input[type="radio"]:checked+label{
+	font-weight: bold;
+}
+
+h2{
+	background-color: #833811;
+	color: white;
+}
+
+button {
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	margin-bottom: -270px;
+	margin-left: -75px;
+	z-index: 100;
+	padding: 20px;
+	width: 50%;
+}

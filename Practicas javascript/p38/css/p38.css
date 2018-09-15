@@ -1,0 +1,118 @@
+h1 {
+position: relative;
+top: 0;
+left: 0;
+margin: 0;
+background-color: black;
+color: white;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: -1;
+}
+
+aside{
+	position: absolute;
+	top: 102px;
+	left: 0;
+	bottom: 0;
+	width: 150px;
+	background-color: white;
+	z-index: -1;
+
+}
+
+body{
+	background-color:#906B6BFF;
+}
+
+#h2-osi {
+	position: absolute;
+	top: 35px;
+	width: 100%;
+	background-color: gray;
+color: white;
+}
+
+#h2-tcpip {
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    width: 40%;
+    height: 50px;
+    color: white;
+
+}
+
+main{
+	position: absolute;
+	top: 100px;
+	left: 650px;
+	z-index: -1;
+}
+
+#tablaOsi{
+	text-align: center;
+	position: absolute;
+	top: 0;
+		display: none;
+}
+
+#tablaTcp {
+	text-align: center;
+	position: absolute;
+	left: 300px;
+	top: 0;
+	display: none;
+
+
+}
+
+.capa{
+	border:  2px solid black;
+	padding:  17px;
+	margin: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+.app{
+	background-color: #41AF7EFF;
+}
+
+#tablaTcp>.app{
+	height: 180px;
+}
+
+.trans{
+	background-color: #3688AFFF;
+}
+
+.eth{
+	background-color: #AF7333FF;
+}
+
+.rosita{
+	background-color: #AF30A9FF;
+}
+
+#tablaTcp>.rosita{
+	height: 100px;
+}
+
+#ocultarTodo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: 10;
+	height: 0;
+	width: 100%;
+}

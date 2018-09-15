@@ -1,0 +1,39 @@
+*{
+	font-family: "Montserrat",sans-serif;
+}
+h1{
+	color: #008080FF;
+	text-align: center;
+	font-size: 3em;
+}
+
+#texto{
+	width: 80%;
+	border:1px solid darkred;
+	border-radius: 10px  0 0 10px ;
+	height: 60px;
+	font-size: 2em;
+}
+
+#mas{
+	background-color: #A52A2AFF;
+	border:  none;
+	height: 64px;
+	border-radius: 0 10px 10px 0;
+	margin-left: -5px;
+	color: white;
+	font-size: 2em;
+	width: 10%;
+}
+
+li{
+	color: #008080FF;
+	font-size: 2em;
+}
+button{
+	background-color: #A52A2AFF;
+	border-radius: 10px;
+	margin-bottom: 5px;	
+	border: none;
+	color: white;	
+}
