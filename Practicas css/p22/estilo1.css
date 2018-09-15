@@ -1,0 +1,105 @@
+body{
+	background-color: white;
+	font-family: sans-serif;
+	text-align: justify;
+	margin: 0;
+}
+h1{
+	font-family: 'Titan One', cursive;
+	text-align: center;
+	background-color: white;
+	font-size:2.5em;
+	margin: 0;
+
+}
+small{
+	color: slategray;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size:0.55em;
+
+}
+h2{
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-family: 'Titan One', cursive;
+	text-align: center;
+	font-weight: normal;
+	font-size: 2em;
+	padding: 0.5em;
+	margin: 0;
+
+
+}
+section{
+	background-image: url('img/2859.jpg')
+}
+p{
+	background-color: rgba(255, 255, 255, .8);
+	margin: auto;
+	max-width: 700px;
+	padding: 0.8em;
+}
+p img{
+	margin: auto;
+	max-width: 100%;
+}
+
+nav{
+	background-color: white;
+	padding: 5px;
+}
+
+a{
+	color: #447577;
+	font-weight: bold;
+}
+a:hover{
+	background-color: #447577;
+	color: white;
+	font-weight: bold;
+}
+
+blockquote{
+	background-color: #d9d4bb ;
+	font-style: italic;
+	margin: 0;
+	padding: 1em 50% 1em 5em;
+}
+strong{
+	color: #2d77ff;
+}
+pre{
+	color: white;
+	background-color: slategray;
+	font-family: 'Ubuntu Mono', monospace;
+	margin: auto;
+	max-width: 729px;
+}
+code{
+	color: white;
+	background-color: slategray;
+	font-family: 'Ubuntu Mono', monospace;
+}
+pre strong{
+	color: yellow;
+}
+
+samp{
+	background-color: #404040;
+	color: white;
+}
+
+kbd{
+	background-image: url('img/key.png');
+	background-position: center bottom;
+	padding: 1em;
+	background-size: 120% 120%;
+	font-weight: 700;
+	color: grey;
+	border: 2px solid white;
+}
+
+address{
+	background-color: #966964;
+}

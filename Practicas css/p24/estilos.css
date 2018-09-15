@@ -1,0 +1,111 @@
+body{
+	background-image: url('img/parquet.jpg');
+	font-family: 'Cantarell', sans-serif;
+	padding: 25px;
+
+}
+h1{
+	background-color: red;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 250px;
+	background: linear-gradient(#042b47, #660c26);
+	margin: 0;
+}
+
+section{
+	margin:0;
+}
+h2{
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	font-size: 100px;
+}
+
+h3{
+	margin: 0;
+	max-width: 50%;
+	text-align: left;
+}
+section{
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+
+section#rosa{
+	background-image: url('img/curry.png');
+	background-position: left;
+}
+section#azul{
+	background-image: url('img/lebron.png');
+	background-position: right;
+}
+section#rosa h2{
+	color: #042b47;
+	margin-left: 50%;
+	text-align: right;
+
+}
+section#rosa h3{
+	background-color: #042b47;
+	color: white;
+	margin-left: 50%;
+	
+}
+section#azul h2{
+	color: #660c26;
+	margin: 0;
+	padding: 0;
+
+}
+section#azul h3{
+	color: white;
+	background-color: #660c26;
+	margin-right: 50%;
+
+}
+#azul ol{
+	margin-right: 50%;
+}
+#rosa ol{
+	margin-left: 50%;
+}
+section#rosa{
+	background-color: pink;
+	padding: 20px;
+
+}
+section#azul{
+	background-color: #b0d8f5;
+	padding: 20px;
+}
+
+ol{
+	background-color: rgba(255,255,255,.5); 
+	margin: 0;
+}
+section#rosa ol{
+	margin-left: 50%;
+}
+
+li{
+	list-style-type: upper-roman; 
+	border-bottom: 1px solid white;
+	padding: 5px;
+	text-align: center;
+
+
+}
+
+strong{
+	color: #2c6624;
+	font-weight:700;
+	border: 2px dotted #2c6624;
+
+}
+
+li:first-of-type{
+	font-weight: bold;
+}
+

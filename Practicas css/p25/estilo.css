@@ -1,0 +1,109 @@
+body{
+	background-color: gray;
+	padding: 0px 25px;
+	margin: 0px;
+}
+section#rojo{
+	background-image: url(img/k2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 50px;
+}
+
+input{
+    background-color:#cccccc;
+    width:520px;
+    height:70px;
+    margin-left:50px;
+    margin-bottom:30px;
+    padding-left:80px;
+    border-radius:5px;
+    font-size:1.5em;
+    color:#490902;
+    }
+section#formu{
+	background-color: white;
+	margin: 0px;
+	border-radius: 0 0 1em 1em;
+	background-color: rgb(255,255,255);
+}
+
+input[type="text"]{
+	background-color: #cccccc;
+	border: none;
+}
+input[type="password"]{
+	background-color: #cccccc;
+	border: none;	
+}
+input[type="radio"]{
+	display: none;
+}
+
+input[type="radio"]+ label{
+    background-image: url(img/radio0.png);
+    font-size:1.2em;
+    margin-left:10px;
+    background-repeat:no-repeat;
+    padding-left:40px;
+    background-position: left;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #747474;
+	font-family: sans-serif;
+
+}
+input[type="radio"]:checked+ label{
+	background-image: url(img/radio1.png);
+}
+
+label[for="Recordar"]{
+	padding-left: 50px;
+}
+input[type="checkbox"]{
+	background-position: top;
+	display: none;
+	padding-bottom: 50px;
+}
+
+input [type="checkbox"]{
+	margin-top: 40px;
+
+}
+p{
+	text-align: center;
+	margin: 0px;
+}
+
+input[type="checkbox"]+ label{
+	background-image: url(img/checkbox0.png);
+	background-repeat: no-repeat;
+	font-size:1.5em;
+    margin-left:50px;
+    margin-top: 50px;
+    padding-left:60px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+input[type="checkbox"]:checked +label{
+	background-image: url(img/checkbox1.png);
+
+}
+
+#botones{
+	margin-left:50px;
+    text-align: center;
+}
+
+button{
+	width: 200px;
+	font-size: 1.5em;
+	background-color: #ff5454;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 20px;
+
+}
+::placeholder{color: white;};

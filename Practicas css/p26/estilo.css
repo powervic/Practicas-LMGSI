@@ -1,0 +1,74 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300px;
+	background-color: gray;
+	padding: 0px 25px 25px 25px;
+}
+
+section{
+	background-color:rgb(36,49,60);
+
+}
+h1{
+	text-align: center;
+	color: white;
+}
+table{
+	margin-left: 50px;
+	margin-top: 10px;
+    border-spacing: 20px;
+    
+}
+td{
+    padding:10px;
+    border:2px solid hsl(171,11%,70%);
+}
+
+input[type="text"]{
+	background-image: url(img/user.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+input[type="password"]{
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(img/candado.png);
+}
+
+button{
+	width: 100%;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+label{
+    color:hsl(171,11%,70%);
+    margin-right:.5em;
+    font-size:1.25em;
+}
+
+button:hover{
+    background-color: #1ab188;
+}
+input[type="checkbox"]{
+	display: none;
+}
+input[type="checkbox"]+ label{
+	background-image: url(img/no.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+
+
+}
+input[type="checkbox"]:checked + label{
+	background-image: url(img/si.png);
+}
+input:focus {
+    background-color: #1ab188;
+}

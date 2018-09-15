@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Práctica 26</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<section id="form">
+		<h1>Alta de usuario</h1>
+		<form action="">
+			<table border="1">
+				<tr>
+					<td><label for="nombre">Nombre</label>
+						<input type="text" id="nombre"></td>
+					<td><label for="apellido">Apellido</label>
+			<input type="text" id="apellido"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label for="mail">E-mail</label>
+					<input type="text" id="mail"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label for="pass">Contraseña</label>
+					<input type="password" id="pass"></td>
+				</tr>
+				<tr>
+					<td><label for="hombre">Hombre</label>
+					<input type="radio" name="sexo"  id="hombre"></td>
+					<td><input type="radio" name="sexo"  id="mujer">
+					<label for="mujer">Mujer</label></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" name="usuario" id="familiar">
+						<label for="familiar">Familiar</label><br>
+						<input type="checkbox" name="usuario" id="trabajador">
+						<label for="trabajador">Trabajador</label><br>
+						<input type="checkbox" name="usuario" id="socio">
+						<label for="socio">Socio</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label for="edad">Edad</label>
+						<input type="number" id="edad" required min="18" max="65">
+					</td>
+				</tr>
+			</table>
+			<button class="alta" type="button">Alta</button>
+		</form>
+	</section>
+</body>
+</html>
+
+			
+			
+			
+						
