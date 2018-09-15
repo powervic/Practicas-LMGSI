@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Práctica 15</title>
+</head>
+<body>
+	<h1>Imagen intercambiable SVG</h1>
+	<picture>
+		<source srcset="img/monitor.svg" media="(min-width:1200px)">
+		<source srcset="img/portatil.svg" media="(min-width:800px)"> 
+		<img srcset="img/smartphone.svg" alt="smartphone"> 
+	</picture>
+	<h1>Imagen en dos formatos</h1>
+	<picture>
+		<source srcset="img/vietnam.webp" media="(min-width:500px)">
+		<img src="img/vietnam.jpg" media="(min-width:500px)">
+	</picture>
+	<h1>Ecuación</h1>
+	<math style="display: block;"> <mtable columnalign="right center left"> <mtr> <mtd> <msup> <mrow> <mo> ( </mo> <mi> a </mi> <mo> + </mo> <mi> b </mi> <mo> ) </mo> </mrow> <mn> 2 </mn> </msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> <mo> + </mo> <mn> 4 </mn> <mo> ⋅ </mo> <mo>(</mo> <mfrac> <mn> 1 </mn> <mn> 2 </mn> </mfrac> <mi> a </mi><mi> b </mi> <mo>)</mo>                               </mtd> </mtr> <mtr> <mtd> <msup><mi> a </mi><mn>2</mn></msup> <mo> + </mo> <mn> 2 </mn><mi> a </mi><mi> b </mi> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> <mo> + </mo> <mn> 2 </mn><mi> a </mi><mi> b</mi></mtd></mtr><mtr><mtd></mtd></mtr><mtr><mtd><msup><mi>a </mi><mn>2</mn></msup> <mo> + </mo> <msup><mi> b </mi><mn>2</mn></msup> </mtd> <mtd> <mo> = </mo> </mtd> <mtd> <msup><mi> c </mi><mn>2</mn></msup> </mtd> </mtr> </mtable> </math>
+	<h1>Canvas</h1>
+	<canvas id="canvas" width="300" height="300"> 
+		<script type="otros/canvas.js"></script>
+	<h1>Video en varios formatos y con subtítulos</h1>
+	<h1>Video en varios formatos y con subtítulos</h1>
+</body>
+</html>

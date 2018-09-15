@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica 18</title>
+	<link rel="stylesheet" href="estilos/estilo1.css">
+</head>
+<body>
+	<form action="http://jorgesanchez.net/servicios/ver-datos.php" method="POST"></form>
+	<table border="1">
+		<tr>
+		<th colspan="4"><h1>Formulario de Alta</h1></th>
+	</tr>
+	<tr>
+		<td>Usuario <br>
+			Contraseña <br>
+			Confirmar la contraseña <br>
+		</td>
+		<td> <input type="text"> <br>
+			<input type="password"> <br>
+			<input type="password">
+		</td>
+		<td colspan="2" rowspan="3"><img src="imagen/mundo.jpg" alt="mundo"></td>
+		
+	</tr>
+	
+	<tr>
+		<td>email <br>
+			telefono <br>
+			fecha de nacimiento</td>
+		<td><input type="text"> <br>
+			<input type="text"> <br>
+			<input type="date"> 
+		</td>
+		
+	</tr>
+	<tr>
+		<td colspan="2"><fieldset>
+			<legend>Intereses</legend>
+					<table border="1">
+				<tr>
+					<td>Deportes <input type="checkbox"></td>
+					<td>Cine <input type="checkbox"></td>
+					<td>Teatro <input type="checkbox"></td>
+				</tr>
+				<tr>
+					<td>Música<input type="checkbox"></td>
+					<td>Viajes <input type="checkbox"></td>
+					<td>Otras <input type="checkbox"></td>
+				</tr>
+			</table>
+			</fieldset>
+		</td>		
+	</tr>
+	<tr>
+		<td colspan="2">Sexo:
+			Hombre<input name="sexo" type="radio" value="sexo">
+			Mujer <input name="sexo" type="radio" value="sexo">
+		</td>
+		<td colspan="2">¿Cómo conociste a MundoOcio.com?
+			<select>
+				<optgroup label="Recomendación">
+				<option value="Amigos">Amigos</option>
+				<option value="Familiares">Familiares</option>
+				<option value="Otros">Otros</option></optgroup>
+
+				<optgroup label="Medios"></optgroup>
+				<option value="Internet">Internet</option>
+				<option value="TV">TV</option>
+				<option value="Prensa">Prensa</option>
+				<option value="Radio">Radio</option>
+				<option value="Otros">Otros</option>
+
+			</select>
+				<option value="A"></option>
+			</td>
+	</tr>
+	<tr>
+		<td colspan="4">Escribe comentarios que estimes oportunos:
+			<br>
+			<textarea rows="10" cols="100" name="texto"></textarea>
+		</td>
+	<tr>
+		<td colspan="4">
+			<input type="submit">
+		</td>
+	</tr>
+	</table>
+<br>
+<h1>Ir a zonas de MundoOcio.com</h1>
+
+<img src="imagen/mundo2.jpg" alt="mundo2" usemap="#mapa1">
+<map name="mapa1">
+	<area shape="rect" coords="0,0,149,150" href="enlaces/azul.html" alt="azul"> 
+	<area shape="rect" coords="150,0 299,150" href="enlaces/morado.html" alt="morado">
+	<area shape="rect" coords="300,0 449,150" href="enlaces/verde.html" alt="verde">
+	<area shape="rect" coords="450,0 600,150" href="enlaces/rojo.html" alt="rojo">
+
+
+</map>
+<br>
+<table width="600px">
+	<tr>
+		<td><a href="enlaces/azul.html">&nbsp;Europa Occidental</a></td>
+		<td><a href="enlaces/morado.html">Europa del Norte</td>
+		<td>&nbsp; <a href="enlaces/verde.html">&nbsp;Mediterráneo Oriental </a></td>
+		<td>&nbsp; <a href="enlaces/rojo.html">Mar del Japón</a>&nbsp;</td>
+	</tr>
+</table>
+	
+</body>
+</html>
